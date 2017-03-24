@@ -5,7 +5,7 @@ __Team members:__
 
 Melissa Lam lamxx204@umn.edu
 
-__Heroku URL:__ https://blooming-gorge-53691.herokuapp.com/
+__Heroku URL:__ 
 
 __Argument of ambition (optional, maximum 100 words):__
 
