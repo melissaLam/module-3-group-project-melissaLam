@@ -7,10 +7,9 @@ Melissa Lam lamxx204@umn.edu
 
 __Heroku URL:__ https://sleepy-sierra-99422.herokuapp.com/
 
-__Argument of ambition (optional, maximum 100 words):__
+__Argument of ambition (optional, maximum 100 words):__ I did the worked asked of me.
 
-
-__Argument of execution (optional, maximum 100 words):__
+__Argument of execution (optional, maximum 100 words):__ I properly implemented the login and sign up page to react to you already having an account accordingly, so login will only work with valid email address and password combo and signup will not create an new account if it finds the email address already used on another account. The homepage will see if a person is logged in an hides the login and signup buttons as well as display a secret message only people logged in shall see. 
 
 
 ## Description ##
