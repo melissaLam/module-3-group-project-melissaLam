@@ -24,12 +24,24 @@ const routes = {
 
     {
       path: '/login',
-      component: LoginPage
+	  getComponent: (location, callback) => {
+		  if (Auth.isUserAuthenticated()) {
+          callback(null, HomePage);
+        } else {
+          callback(null, LoginPage);
+        }
+      }
     },
 
     {
       path: '/signup',
-      component: SignUpPage
+	  getComponent: (location, callback) => {
+		  if (Auth.isUserAuthenticated()) {
+          callback(null, HomePage);
+        } else {
+          callback(null, SignUpPage);
+        }
+      }
     },
 
     {

@@ -16519,10 +16519,22 @@ var routes = {
     }
   }, {
     path: '/login',
-    component: _LoginPage2.default
+    getComponent: function getComponent(location, callback) {
+      if (_Auth2.default.isUserAuthenticated()) {
+        callback(null, _HomePage2.default);
+      } else {
+        callback(null, _LoginPage2.default);
+      }
+    }
   }, {
     path: '/signup',
-    component: _SignUpPage2.default
+    getComponent: function getComponent(location, callback) {
+      if (_Auth2.default.isUserAuthenticated()) {
+        callback(null, _HomePage2.default);
+      } else {
+        callback(null, _SignUpPage2.default);
+      }
+    }
   }, {
     path: '/logout',
     onEnter: function onEnter(nextState, replace) {
