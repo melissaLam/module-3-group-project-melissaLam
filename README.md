@@ -7,9 +7,9 @@ Melissa Lam lamxx204@umn.edu
 
 __Heroku URL:__ https://sleepy-sierra-99422.herokuapp.com/
 
-__Argument of ambition (optional, maximum 100 words):__ I did the worked asked of me.
+__Argument of ambition (optional, maximum 100 words):__ I did the work that was asked of me. We agreed that I would just do the general requirements and I would get full credit.
 
-__Argument of execution (optional, maximum 100 words):__ I properly implemented the login and sign up page to react to you already having an account accordingly, so login will only work with valid email address and password combo and signup will not create an new account if it finds the email address already used on another account. The homepage will see if a person is logged in an hides the login and signup buttons as well as display a secret message only people logged in shall see. 
+__Argument of execution (optional, maximum 100 words):__ I properly implemented the login and sign up page to react to you already having an account accordingly, so login will only work with valid email address and password combo and signup will not create an new account if it finds the email address already used on another account. The homepage will see if a person is logged in an hides the login and signup buttons as well as display a secret message only people logged in shall see. It saves this data to the module2 database I created in MongoDB as well as remembering that you are logged on or not after leaving the page. The user's password gets hashed so you can not see the password in the database, providing some security while also beign able to unhash it so you can still log in.
 
 
 ## Description ##

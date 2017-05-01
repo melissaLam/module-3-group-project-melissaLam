@@ -16723,7 +16723,7 @@ var Base = function Base(_ref) {
         _react2.default.createElement(
           _reactRouter.IndexLink,
           { to: '/' },
-          'React App'
+          'Sticky Notes'
         )
       ),
       _Auth2.default.isUserAuthenticated() ? _react2.default.createElement(
